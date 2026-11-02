@@ -14,6 +14,6 @@ Reading printed music is very accurate but not perfect. PlayableNotes lists "thi
    - **Unreadable line**: rebuild it from the other staff and the harmony only if you're confident. Otherwise, say which measure needs the teacher's eye.
    - **Wrong-sounding notes**: a common cause is an accidental that should carry through the measure, or a clef change that was missed (`{G}` and `{F}`).
 3. Send only the fixed measures to `edit_score`, with a summary such as "Fixed rhythms in measures 12 and 30".
-4. Report what you fixed and what you left for the teacher, with measure numbers. Suggest comparing with the original pages (the "Original" button in the PlayableNotes studio) for anything uncertain.
+4. Report what you fixed and what you left for the teacher, with measure numbers. Suggest comparing with the original pages (in the PlayableNotes studio, the "Original" button for uploaded pages) for anything uncertain.
 
 Never "fix" a measure by inventing music. If you can't tell what was printed, say so.

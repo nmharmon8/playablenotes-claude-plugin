@@ -1,6 +1,6 @@
 ---
 name: playablenotes
-description: Use PlayableNotes to read piano sheet music into playable scores, open the user's scores or library pieces, change them with KM edits, and make practice links for students.
+description: Use PlayableNotes to turn piano sheet music into playable scores, open the user's scores or library pieces, change them with KM edits, and make practice links for students.
 ---
 
 # PlayableNotes
@@ -11,7 +11,7 @@ PlayableNotes is for piano teachers. Every score lives in the teacher's Playable
 
 | Need | Tool |
 | --- | --- |
-| Sheet music attached (page photos, screenshots, PDFs or MusicXML) | `read_sheet_music`: pages in order; pass the title and composer if you can read them |
+| Sheet music attached (page photos, screenshots, PDF pages) | Read it yourself: `arranging_guide` `read-sheet-music`, then `save_reading` page by page (the `read-sheet-music` skill) |
 | A well-known piece | `find_library_piece`, then `open_library_piece` |
 | The teacher's own scores | `my_scores`, then `open_score` |
 | The notes of a score | `get_score` (KM, version number, things to check). Use `measures: "5-12"` for part of a long score |
@@ -22,9 +22,9 @@ PlayableNotes is for piano teachers. Every score lives in the teacher's Playable
 | A new piece or exercise from a description (nothing attached) | `arranging_guide` `compose`, then `create_score` with the whole KM |
 | Guidance for a task | `arranging_guide` (`arrange-for-student`, `change-key`, `check-score`) |
 
-Reading attached music uses the account's credits, 1 per line of music (pages without music are skipped, and none are used if reading fails); nothing else does. `my_scores` gives the balance if the teacher asks. If the account has too few, nothing is read: say how many are needed and how many they have. Nothing is sold in this conversation: don't say what credits cost, offer more, or link to a page for paying. If asked how to get more, say credits are managed in their account on the PlayableNotes website.
+Nothing in this conversation uses credits: you read attached music yourself, and every tool here is free. (Pages uploaded on the PlayableNotes website are read there with the account's credits; `my_scores` gives the balance if the teacher asks.) Nothing is sold in this conversation: don't say what credits cost, offer more, or link to a page for paying. If asked how to get more, say credits are managed in their account on the PlayableNotes website.
 
-Reading takes a minute or two. The card shows progress, so don't keep calling `get_score` in a loop; one check after the teacher replies is enough. When the score is ready, mention any "things to check" and offer to review them, but don't start unless asked.
+Reading is page by page in this conversation, so the teacher sees each page saved as you go. When the last page is saved, show the score with `open_score`, mention the measures you were unsure of, and offer to fix them, but don't start unless asked.
 
 ## Changing a score
 
