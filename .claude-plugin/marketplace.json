@@ -1,0 +1,15 @@
+{
+  "name": "playablenotes",
+  "description": "PlayableNotes for Claude: read, play, edit and arrange piano sheet music.",
+  "owner": {
+    "name": "PlayableNotes",
+    "email": "support@playablenotes.com"
+  },
+  "plugins": [
+    {
+      "name": "playablenotes",
+      "source": "./",
+      "description": "Read piano sheet music from photos, scans and PDFs, or have Claude write a new piece from a description, into scores you can play, edit, transpose, simplify and arrange for each student."
+    }
+  ]
+}

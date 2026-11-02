@@ -1,0 +1,29 @@
+{
+  "name": "playablenotes",
+  "displayName": "PlayableNotes",
+  "version": "1.0.0",
+  "description": "Read piano sheet music from photos, scans and PDFs, or have Claude write a new piece from a description, into scores you can play, edit, transpose, simplify and arrange for each student.",
+  "author": {
+    "name": "PlayableNotes",
+    "email": "support@playablenotes.com",
+    "url": "https://playablenotes.com"
+  },
+  "homepage": "https://playablenotes.com",
+  "repository": "https://github.com/nmharmon8/playablenotes-claude-plugin",
+  "license": "LicenseRef-PlayableNotes",
+  "privacyPolicyUrl": "https://playablenotes.com/privacy",
+  "keywords": [
+    "sheet music",
+    "piano",
+    "music notation",
+    "score editor",
+    "MusicXML",
+    "MIDI",
+    "transpose",
+    "simplify music",
+    "arrange",
+    "piano teacher",
+    "music education",
+    "practice"
+  ]
+}

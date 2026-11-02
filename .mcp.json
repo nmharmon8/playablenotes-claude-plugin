@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "playablenotes": {
+      "type": "http",
+      "url": "https://playablenotes.com/mcp"
+    }
+  }
+}
