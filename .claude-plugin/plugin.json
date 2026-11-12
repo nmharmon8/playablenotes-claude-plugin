@@ -1,7 +1,7 @@
 {
   "name": "playablenotes",
   "displayName": "PlayableNotes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read piano sheet music from photos, scans and PDFs, or have Claude write a new piece from a description, into scores you can play, edit, transpose, simplify and arrange for each student.",
   "author": {
     "name": "PlayableNotes",

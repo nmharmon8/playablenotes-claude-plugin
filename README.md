@@ -18,7 +18,8 @@ PlayableNotes works with written music (notation). It does not generate audio, v
 In Claude, add the plugin from the plugin directory, or in Claude Code run:
 
 ```
-/plugin install playablenotes --marketplace nmharmon8/playablenotes-claude-plugin
+/plugin marketplace add nmharmon8/playablenotes-claude-plugin
+/plugin install playablenotes@playablenotes
 ```
 
 1. Install the plugin, then connect the PlayableNotes connector from the plugin's **Connectors** tab and sign in with your PlayableNotes account (Google or an emailed sign-in link). When connecting you confirm, once, that the music you send is yours or that you may use it for teaching.

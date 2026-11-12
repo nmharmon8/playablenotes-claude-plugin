@@ -13,5 +13,6 @@ description: Transpose a PlayableNotes score to another key, for example to suit
 6. Keep the register sensible. If the new key pushes the music far above or below the original, move it by an octave the other way. Move whole sections at once, and check that the left hand stays below the right.
 7. Check the clefs: if the left hand now sits high, keep the bass clef unless the original changed clef there. Don't add clef changes the original didn't have.
 8. Send the whole KM to `edit_score` with a summary such as "Transposed from E♭ major down a minor third to C major".
+9. If the title names the old key ("Waltz in F"), pass the new title with the edit.
 
 Check before sending: the number of measures and the rhythms are identical, only pitches, accidentals and key lines changed, and spot-checked chords still spell the right harmony (a V7 is still a V7).

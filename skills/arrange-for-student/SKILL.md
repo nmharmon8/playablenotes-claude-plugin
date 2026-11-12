@@ -9,7 +9,7 @@ The goal is a version this student can play well that still sounds like the piec
 
 ## First, pin down the student
 
-If the teacher hasn't said, ask one short question, the level or what the student struggles with, unless the request is already specific ("no octaves", "easier left hand"). Use the levels below as shared vocabulary. They are a draft based on common method-book sequences (Faber Piano Adventures, Alfred's Basic, RCM / ABRSM grades); the teacher's own description always wins.
+If the teacher hasn't said, ask one short question, the level or what the student struggles with, unless the request is already specific ("no octaves", "easier left hand"). "A beginner" means level 1. Use the levels below as shared vocabulary. They are a draft based on common method-book sequences (Faber Piano Adventures, Alfred's Basic, RCM / ABRSM grades); the teacher's own description always wins.
 
 | Level | Roughly | Right hand | Left hand | Rhythm | Keys and range |
 | --- | --- | --- | --- | --- | --- |
@@ -28,11 +28,13 @@ If the teacher hasn't said, ask one short question, the level or what the studen
 6. **Shorten runs and arpeggios**: keep the start and the target note, and cut the middle.
 7. **Change the key** (only if the teacher allows it): to one with fewer accidentals. See `change-key`.
 
-Keep the meter, the number of measures, repeats, dynamics, slurs and articulations. If a measure can't be simplified without losing the tune, simplify the left hand more and the right hand less.
+At levels 1 and 2 the level comes first: a first-year version has no sixteenth-note runs, and a piece much longer than about 32 measures is arranged as its main theme (for Für Elise, the A section with its repeat); say which measures you kept. Where its notes are too fast (sixteenths in 3/8), double every value and the beat with it: 3/8 becomes 3/4, one measure stays one, and every note of the tune stays. Pass a tempo with the edit (twice the old number keeps the original speed; for a beginner choose slower, about 100 for Für Elise), and say the time signature changed. If eighth notes remain, call it "a late-beginner version" and offer a plainer one in quarter notes; don't rewrite the melody unless the teacher takes that offer.
+
+Otherwise keep the meter, the number of measures, repeats, dynamics, slurs and articulations. If a measure can't be simplified without losing the tune, simplify the left hand more and the right hand less.
 
 ## Doing it in PlayableNotes
 
-1. Call `get_score` and look at the whole piece before changing anything. Identify the melody and the harmony in each measure.
+1. Call `get_score` (it includes KM in brief) and look at the whole piece first: the melody and the harmony in each measure. If what was asked for is already true, say so and offer the next step down instead of saving a change that isn't one.
 2. Decide on one consistent treatment for each section. For example, "LH: one chord per measure, root position; RH: melody only, no octaves".
 3. For a whole-piece arrangement, send the whole KM to `edit_score`. Every voice line must still add up to the measure, and `s/` spacers must stay where voices drop out.
-4. Summarise what changed for the teacher, and offer one follow-up, such as "Want the left hand even simpler in the B section?". Mention `share_with_student` when the version is for a particular student.
+4. Check both hands against the level's row before saving, and say only what the notes show: the level reached and what stays hard.

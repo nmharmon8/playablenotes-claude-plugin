@@ -24,17 +24,17 @@ Defaults when the user hasn't said:
 2. **Harmony.** Write a chord plan first, one chord per measure at levels 1 and 2, for example I I V V | I IV V I. Use I, IV, V and vi; add ii and V7 from level 3.
 3. **Melody (right hand).** Mostly steps, some skips of a third, leaps only to chord tones. Repeat and vary a motive: measure 3 echoes measure 1's rhythm. One high point, in the second half. Each phrase ends on a tone of its cadence chord.
 4. **Accompaniment (left hand), by level:**
-   - 1: single bass notes or open fifths (`[C3 G3]/1`), one per measure or per half.
+   - 1: single bass notes or open fifths (`[C3 G3]/1`), one per measure or per half. In a dance (waltz, minuet) the left hand keeps the beat with single notes: the root on beat 1 and one chord note on beats 2 and 3 (`F3/4 C4/4 C4/4`). Keep one held note per measure for a student's very first pieces, or when asked for an easier left hand.
    - 2: root-position triads or root and fifth on the beats; simple broken chords in quarters.
    - 3: Alberti bass or broken chords in eighths; inversions for smooth voice leading.
    - 4: freer patterns, bass lines and octaves.
 5. **Rhythm and range** follow the level table in `arrange-for-student`. Keep the right hand around C4 to G5 (a five-finger position at level 1) and the left hand around C2 to C4, below the right hand, so the hands never collide.
-6. **Style.** Waltz: bass on beat 1, chord on beats 2 and 3 (level 2 and up). March: dotted rhythms, strong beats. Lullaby: gentle, stepwise, soft. Blues: 12 measures of I-IV-V, written in straight eighths. Rock or pop feel: steady left-hand eighths on roots and fifths.
+6. **Style.** Waltz: bass on beat 1, chord on beats 2 and 3 (two-note chords from level 2; single notes at level 1). March: dotted rhythms, strong beats. Lullaby: gentle, stepwise, soft. Blues: 12 measures of I-IV-V, written in straight eighths. Rock or pop feel: steady left-hand eighths on roots and fifths.
 7. **Marks.** A dynamic at the start, a crescendo into the high point, slurs over phrases from level 2, and a final barline.
 
 ## Write the KM
 
-Follow the KM rules (`arranging_guide playablenotes` covers them in depth):
+Follow the KM rules (enough for an ordinary piece; `arranging_guide playablenotes` has several voices, lyrics and endings):
 
 - The first line is `KEY: <fifths>  TIME: <beats>/<beat-type>`, for example `KEY: -1  TIME: 3/4` for F major in 3/4.
 - Then, for every measure, `M<n> RH:` and `M<n> LH:` lines. Put `{G}` and `{F}` clefs on measure 1.
@@ -68,7 +68,7 @@ Call `create_score` with the title, the whole KM, a tempo that suits the style, 
 
 ## After saving
 
-Describe the piece in a sentence or two, for a musician: the key, the form, and what the student practises in it. Offer one follow-up: easier or harder, another key (`change-key`), or a practice link (`share_with_student`). Every later change is a new version through `edit_score`.
+Describe the piece in a sentence or two, in a teacher's words: the key, its length, and what the student practises in it. Offer one follow-up: easier or harder, another key (`change-key`), or a practice link (`share_with_student`). Every later change is a new version through `edit_score`.
 
 ## Copyright
 
